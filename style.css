@@ -1,0 +1,23 @@
+body{
+  background-color: whitesmoke;
+}
+#wall {
+    width: 70%;
+    margin-left: 15%;
+}
+header {
+    text-align: center;
+    font-size: x-large;
+    font-family: Cambria;
+    margin-top: 2%;
+    color: rgb(105, 32, 32);
+}
+#you-tube{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
