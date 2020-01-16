@@ -15,7 +15,7 @@ header {
 #you-tube{
     width: 80%;
     margin-left: 15%;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 p{
     text-align: center;
@@ -23,4 +23,11 @@ p{
 }
 li{
     margin-left: 160px;
+}
+nav.navbar.navbar-inverse{
+    width: 70%
+    
+}
+.navbar.navbar-inverse{
+    margin-left: 15%;
 }
