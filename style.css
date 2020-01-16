@@ -1,9 +1,9 @@
 body{
-  background-color: whitesmoke;
+  background-color: grey;
 }
 #wall {
     
-    margin-left: 11%;
+    margin-left: 15%;
 }
 header {
     text-align: center;
@@ -31,5 +31,5 @@ nav.navbar.navbar-inverse{
     
 }
 .navbar.navbar-inverse{
-    margin-left: 13%;
+    margin-left: 12%;
 }
