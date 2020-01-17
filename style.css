@@ -24,7 +24,7 @@ header {
 p{
     text-align: center;
     font-size: 35px;
-    /* font-family: 'Fugaz One', cursive; */
+    color: rgb(15, 82, 124);
     font-family: 'Alex Brush', cursive;
 }
 li{
@@ -44,4 +44,14 @@ iframe{
     border: solid red 2px;
     border-radius:10px;
     margin-left: 3px;
+}
+.pics{
+    width: 200px;
+    margin-left: 5px;
+    border: solid red 2px;
+    border-radius:10px;
+}
+#photos div{
+    display: flex;
+    flex-direction: row;
 }
