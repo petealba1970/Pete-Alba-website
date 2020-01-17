@@ -66,3 +66,14 @@ iframe{
     display: flex;
     flex-direction: row;
 }
+
+#soundcloud div{
+    margin-left: 100px;
+    text-align: center;
+}
+
+#soundcloud {
+    width: 73%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
