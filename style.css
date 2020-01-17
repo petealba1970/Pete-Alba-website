@@ -50,8 +50,8 @@ nav.navbar.navbar-inverse{
 }
 
 iframe{
-    border: solid red 2px;
-    border-radius:10px;
+    /* border: solid red 2px; */
+    border-radius:20px;
     margin-left: 3px;
 }
 
