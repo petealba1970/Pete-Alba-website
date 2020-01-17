@@ -33,7 +33,7 @@ p{
 }
 
 li{
-    border:solid red;
+    border:solid red 2px;
     border-radius: 5px;
     margin-right: 20px;
     width: 115px;
