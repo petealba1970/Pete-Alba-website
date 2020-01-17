@@ -2,7 +2,7 @@ body{
   background-color: rgb(187, 184, 184);
 }
 #wall {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 11%;
     border: solid red 2px;
     width: 75%;
