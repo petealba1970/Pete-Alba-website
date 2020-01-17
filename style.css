@@ -23,7 +23,9 @@ header {
 } 
 p{
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
+    /* font-family: 'Fugaz One', cursive; */
+    font-family: 'Alex Brush', cursive;
 }
 li{
     margin-left: 160px;
