@@ -2,10 +2,11 @@ body{
   background-color: rgb(187, 184, 184);
 }
 #wall {
-    margin-top: 3px;
-    margin-left: 11%;
+    margin-top: 5px;
+    margin-left: 12%;
     border: solid red 2px;
     width: 74%;
+    border-radius:10px;
 }
 header {
     text-align: center;
@@ -35,8 +36,10 @@ nav.navbar.navbar-inverse{
 .navbar.navbar-inverse{
     margin-left: 13%;
     border: solid red 2px;
+    border-radius:10px;
 }
 iframe{
-    border: solid red 1px;
+    border: solid red 2px;
+    border-radius:10px;
     margin-left: 3px;
 }
