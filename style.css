@@ -3,9 +3,9 @@ body{
 }
 #wall {
     margin-top: 5px;
-    margin-left: 12%;
+    margin-left: 11%;
     border: solid red 2px;
-    width: 74%;
+    width: 75%;
     border-radius:10px;
 }
 header {
