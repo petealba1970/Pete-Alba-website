@@ -77,3 +77,14 @@ iframe{
     margin-left: 150px;
     margin-top: 10px;
 }
+
+#home-pic{
+    width:80%;
+    margin-left:8%;
+    border-radius: 20px;
+}
+
+#shows{
+    text-align: center;
+   
+}
