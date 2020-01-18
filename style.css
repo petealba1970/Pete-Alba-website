@@ -1,6 +1,3 @@
-body{
-  background-color: rgb(187, 184, 184);
-}
 
 #wall {
     margin-top: 10px;
@@ -16,6 +13,7 @@ header {
     font-family: Cambria;
     margin-top: 1%;
     color: rgb(105, 32, 32);
+    /* background-color: rgb(187, 184, 184); */
 }
 
  #you-tube{ 
@@ -78,13 +76,35 @@ iframe{
     margin-top: 10px;
 }
 
-#home-pic{
+/* #home-pic{
     width:80%;
     margin-left:8%;
     border-radius: 20px;
-}
+    box-shadow: 10px 10px grey;
+} */
 
 #shows{
     text-align: center;
    
 }
+.parent {
+    margin-left: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    width:90%;
+/* margin-left:40px; */
+    top: 0;
+    left: 0;
+    /* border: 1px red solid; */
+  }
+  .image2 {
+    position: absolute;
+    width:38%;
+
+    top: 140px;
+    left: 290px;
+  }
