@@ -72,8 +72,7 @@ iframe{
 
 #soundcloud {
     width: 73%;
-    margin-left: 150px;
-    margin-top: 10px;
+
 }
 
 /* #home-pic{
@@ -87,6 +86,7 @@ iframe{
     text-align: center;
    
 }
+@media only screen and (max-width:1366px){
 .parent {
     margin-left: 100px;
     position: relative;
@@ -101,10 +101,45 @@ iframe{
     left: 0;
     /* border: 1px red solid; */
   }
-  .image2 {
+  img.image2 {
     position: absolute;
     width:38%;
 
     top: 140px;
     left: 290px;
   }
+}
+  
+@media only screen and (max-width:780px){
+    img.image1 {
+        position: relative;
+        width:90%;
+    /* margin-left:40px; */
+        top: 60px;
+        left: 0;
+        /* border: 1px red solid; */
+      }
+      img.image2 {
+        position: absolute;
+        width:38%;
+        left: 180px;
+      }
+    }
+    
+
+@media only screen and (max-width:568px){
+    
+   img.image1 {
+    position: relative;
+    width:90%;
+/* margin-left:40px; */
+top: 110px;
+    left: 0;
+    /* border: 1px red solid; */
+  }
+  img.image2 {
+    position: absolute;
+    width:38%;
+    left: 60px;
+  }
+}
