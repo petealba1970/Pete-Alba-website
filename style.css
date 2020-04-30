@@ -16,12 +16,7 @@ header {
     /* background-color: rgb(187, 184, 184); */
 }
 
- #you-tube{ 
-    margin-left: 12%; 
-    display: flex;
-    flex-direction: row;
-    width:70%;
-} 
+ 
 
 p{
     text-align: center;
@@ -108,6 +103,12 @@ iframe{
     top: 140px;
     left: 290px;
   }
+  #you-tube{ 
+    margin-left: 12%; 
+    display: flex;
+    flex-direction: row;
+    width:70%;
+} 
 }
   
 @media only screen and (max-width:780px){
@@ -141,5 +142,10 @@ top: 110px;
     position: absolute;
     width:38%;
     left: 60px;
+  }
+  #you-tube{
+      display:inline-block;
+    
+      
   }
 }
