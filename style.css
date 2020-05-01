@@ -169,10 +169,13 @@ iframe{
 
 @media only screen and (max-width:568px){
     .homevideo{
-      border-radius: 20%;
-      margin-left: 42%;
-      width: 30%;
+      border-radius: 10%;
+      margin-left: 12%;
+      width: 80%;
       height: 5%;
+    }
+    .parent{
+      margin-left: 15%;
     }
    img.image1 {
     position: relative;
