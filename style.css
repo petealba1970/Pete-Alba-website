@@ -35,13 +35,6 @@ li{
 
 
 
-iframe{
-    /* border: solid red 2px; */
-    border-radius:20px;
-    margin-left: 3px;
-}
-
-
 
 #photos div{
     display: flex;
@@ -58,12 +51,6 @@ iframe{
 
 }
 
-/* #home-pic{
-    width:80%;
-    margin-left:8%;
-    border-radius: 20px;
-    box-shadow: 10px 10px grey;
-} */
 
 #shows{
     text-align: center;
@@ -71,6 +58,7 @@ iframe{
 }
 @media only screen and (max-width:1366px){
   .homevideo{
+    border-radius: 20%;
     margin-left: 40%;
     margin-top: 2%;
   }
@@ -160,8 +148,9 @@ iframe{
 
 @media only screen and (max-width:568px){
     .homevideo{
-      margin-left: 38%;
-      width: 40%;
+      border-radius: 20%;
+      margin-left: 42%;
+      width: 30%;
       height: 5%;
     }
    img.image1 {
