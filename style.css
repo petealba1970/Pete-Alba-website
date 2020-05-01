@@ -147,6 +147,7 @@ iframe{
       
     #hamnav{
       text-align: center;
+      width: 100%;
     }
 
       img.image2 {
@@ -163,7 +164,7 @@ iframe{
       margin-left: 1%;
     }
     iframe{
-      width:50%;
+      width:46%;
     }
     .homevideo{
       margin-left:21% ;
