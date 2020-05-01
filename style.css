@@ -33,14 +33,7 @@ li{
     height: 60px;
 }
 
-nav.navbar.navbar-inverse{
-    width: 70% 
-}
 
-.navbar.navbar-inverse{
-    margin-left: 13%;
-    border-radius:10px;
-}
 
 iframe{
     /* border: solid red 2px; */
@@ -83,11 +76,16 @@ iframe{
 }
 @media only screen and (max-width:1366px){
 .parent {
-    margin-left: 100px;
+    margin-left: 90px;
     position: relative;
     top: 0;
     left: 0;
   }
+
+  .navbar.navbar-inverse{
+    margin-left: 13%;
+    width:68%;
+}
   .image1 {
     position: relative;
     width:90%;
@@ -144,8 +142,10 @@ top: 110px;
     left: 60px;
   }
   #you-tube{
-      display:inline-block;
-    
-      
+      display:inline-block; 
   }
+  nav.navbar.navbar-inverse{
+      width:33%;
+  }
+  
 }
