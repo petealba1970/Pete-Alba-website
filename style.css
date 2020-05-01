@@ -33,7 +33,10 @@ li{
     height: 60px;
 }
 
-
+iframe{
+  margin-right: 3px;
+  margin-bottom: 2px;
+}
 
 
 #photos div{
@@ -175,7 +178,7 @@ top: 110px;
 
   .pics{
     width: 100px;
-    margin-left: 20%;
+    margin-left: 10%;
     border: solid red 1px;
     border-radius:5px;
 }
