@@ -181,14 +181,14 @@ iframe{
     position: relative;
     width:90%;
 /* margin-left:40px; */
-top: 110px;
+top: 105px;
     left: 0;
     /* border: 1px red solid; */
   }
   img.image2 {
     position: absolute;
     width:38%;
-    left: 70px;
+    left: 80px;
   }
   #you-tube{
     margin-left: 30%;
