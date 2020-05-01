@@ -191,7 +191,7 @@ top: 105px;
     left: 80px;
   }
   #you-tube{
-    margin-left: 30%;
+    margin-left: 20%;
       display:inline-block; 
   }
   #soundcloud{
@@ -208,6 +208,7 @@ top: 105px;
 }
   iframe{
       height:50%;
+      width: 90%;
   }
   nav.navbar.navbar-inverse{
       width:33%;
