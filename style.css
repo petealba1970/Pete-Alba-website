@@ -70,6 +70,10 @@ iframe{
    
 }
 @media only screen and (max-width:1366px){
+  .homevideo{
+    margin-left: 40%;
+    margin-top: 2%;
+  }
 .parent {
     margin-left: 90px;
     position: relative;
@@ -155,7 +159,11 @@ iframe{
     }
 
 @media only screen and (max-width:568px){
-    
+    .homevideo{
+      margin-left: 38%;
+      width: 40%;
+      height: 5%;
+    }
    img.image1 {
     position: relative;
     width:90%;
