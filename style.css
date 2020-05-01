@@ -155,7 +155,8 @@ iframe{
       }
     
     #soundcloud{
-        margin-left: 30%;
+        margin-left: 25%;
+        width: 100%;
     }
     #you-tube{
       margin-left: 1%;
@@ -196,14 +197,14 @@ top: 105px;
       display:inline-block; 
   }
   #soundcloud{
-      margin-left: 30%;
-      width: 100%;
+      margin-left: 10%;
+      width: 90%;
       height:50% ;
   }
 
   .pics{
     width: 100px;
-    margin-left: 10%;
+    margin-left: 15%;
     border: solid red 1px;
     border-radius:5px;
 }
