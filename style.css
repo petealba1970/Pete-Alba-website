@@ -41,12 +41,7 @@ iframe{
     margin-left: 3px;
 }
 
-.pics{
-    width: 200px;
-    margin-left: 5px;
-    border: solid red 2px;
-    border-radius:10px;
-}
+
 
 #photos div{
     display: flex;
@@ -109,6 +104,13 @@ iframe{
     flex-direction: row;
     width:70%;
 } 
+.pics{
+    width: 200px;
+    margin-left: 5px;
+    border: solid red 2px;
+    border-radius:10px;
+}
+
 }
 #hamnav {
     width: 100%;
@@ -172,8 +174,14 @@ top: 110px;
   }
   #soundcloud{
       margin-left: 10%;
-
   }
+
+  .pics{
+    width: 100px;
+    margin-left: 20%;
+    border: solid red 1px;
+    border-radius:5px;
+}
   iframe{
       height:50%;
   }
