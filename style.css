@@ -148,7 +148,9 @@ iframe{
         left: 180px;
       }
     }
-    
+    #soundcloud{
+        margin-left: 10%;
+    }
 
 @media only screen and (max-width:568px){
     
@@ -167,6 +169,13 @@ top: 110px;
   }
   #you-tube{
       display:inline-block; 
+  }
+  #soundcloud{
+      margin-left: 10%;
+
+  }
+  iframe{
+      height:50%;
   }
   nav.navbar.navbar-inverse{
       width:33%;
@@ -195,4 +204,3 @@ top: 110px;
       #hamnav input:checked ~ #hamitems { display: block; }
     }
     
-}
