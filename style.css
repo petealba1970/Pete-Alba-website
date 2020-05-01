@@ -146,6 +146,7 @@ top: 110px;
   }
   nav.navbar.navbar-inverse{
       width:33%;
+      margin-left: 40%;
   }
   
 }
