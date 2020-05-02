@@ -63,7 +63,7 @@ iframe{
   .homevideo{
     width: 60%;
     
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 2%;
   }
 .parent {
@@ -92,7 +92,7 @@ iframe{
     width:38%;
 
     top: 140px;
-    left: 300px;
+    margin-left:  20px;
   }
   #you-tube{ 
     margin-left: 12%; 
@@ -143,7 +143,7 @@ iframe{
       position: relative;
       width:90%;
   /* margin-left:40px; */
-      top: 30px;
+      top: 1px;
       left: 0;
       /* border: 1px red solid; */
     }
@@ -151,7 +151,7 @@ iframe{
     img.image2 {
       position: absolute;
       width:38%;
-      left: 230px;
+      left: 270px;
     }
   }
   
@@ -160,16 +160,16 @@ iframe{
   }
 
   .homevideo{
-    margin-left:19% ;
+    margin-left:18% ;
   }
 
 
-@media only screen and (max-width:1007px){
+@media only screen and (max-width:1024px){
     img.image1 {
         position: relative;
-        width:90%;
+        width:100%;
     /* margin-left:40px; */
-        top: 60px;
+        top: 48px;
         left: 0;
         /* border: 1px red solid; */
       }
@@ -181,8 +181,8 @@ iframe{
 
       img.image2 {
         position: absolute;
-        width:38%;
-        left: 180px;
+        width:40%;
+        left: 170px;
       }
     
     #soundcloud{
@@ -196,13 +196,12 @@ iframe{
       width:46%;
     }
     .homevideo{
-      margin-left:21% ;
+      margin-left:25% ;
     }
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:600px){
     .homevideo{
-      border-radius: 10%;
       margin-left: 12%;
       width: 80%;
       height: 5%;
@@ -214,14 +213,14 @@ iframe{
     position: relative;
     width:90%;
 /* margin-left:40px; */
-top: 105px;
+top: 102px;
     left: 0;
     /* border: 1px red solid; */
   }
   img.image2 {
     position: absolute;
     width:38%;
-    left: 80px;
+    left: 60px;
   }
   #you-tube{
     margin-left: 20%;
