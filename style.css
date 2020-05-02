@@ -158,6 +158,12 @@ iframe{
   #you-tube{
     margin-left: 5%;
   }
+
+  .homevideo{
+    margin-left:19% ;
+  }
+
+
 @media only screen and (max-width:1007px){
     img.image1 {
         position: relative;
