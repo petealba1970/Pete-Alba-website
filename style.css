@@ -59,7 +59,7 @@ iframe{
     text-align: center;
    
 }
-@media only screen and (max-width:1366px){
+@media only screen and (max-width:1800px){
   .homevideo{
     width: 60%;
     
@@ -135,7 +135,30 @@ iframe{
   #hamitems a:hover {
     background: #401408;
   } 
-@media only screen and (max-width:780px){
+
+  @media only screen and (max-width:1366px){
+
+ 
+    img.image1 {
+      position: relative;
+      width:90%;
+  /* margin-left:40px; */
+      top: 30px;
+      left: 0;
+      /* border: 1px red solid; */
+    }
+
+    img.image2 {
+      position: absolute;
+      width:38%;
+      left: 230px;
+    }
+  }
+  
+  #you-tube{
+    margin-left: 5%;
+  }
+@media only screen and (max-width:1007px){
     img.image1 {
         position: relative;
         width:90%;
@@ -171,7 +194,7 @@ iframe{
     }
 }
 
-@media only screen and (max-width:568px){
+@media only screen and (max-width:640px){
     .homevideo{
       border-radius: 10%;
       margin-left: 12%;
