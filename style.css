@@ -80,7 +80,7 @@ header {
   position: absolute;
   width:40%;
   left: 1200px;
-  margin-top: 480px;
+  margin-top: 520px;
   }
 
   p{
@@ -227,7 +227,7 @@ header {
     }
   
   
-  @media (min-width: 1921px) and (max-width: 2559px){
+  @media (min-width: 1980px) and (max-width: 2559px){
     #hamnav {
       width: 100%;
       background: #000;
@@ -325,62 +325,63 @@ header {
         border-radius:5px;
     }
     }
-  
 
 
-@media (min-width: 1921px) and (max-width: 2559px){
-  #hamnav {
-    width: 100%;
-    background: #000;
-    /* Optional */
-    position: sticky;
-    top: 0;
-  }
-  header {
-    text-align: center;
-    font-size: 35px;
-    font-family: Cambria;
-    margin-top: 1%;
-    color: rgb(105, 32, 32);
-    /* background-color: rgb(187, 184, 184); */
-  }
-  
-  /* Hide Hamburger */
-  #hamnav label, #hamburger { display: none; }
-  
-  /* Horizontal Menu Items */
-  #hamitems { display: flex; }
-  #hamitems a {
-    width: 20%; /* 100% / 5 tabs = 20% */
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
-  #hamitems a:hover {
-    background: #401408;
-  }
-  .homevideo{
-    margin-left: 17%;
-    width: 69%;
-    height: 5%;
-    margin-top: 10px;
-  }
-  .parent{
-    margin-left: 5%;
-  }
-  img.image1 {
-  position: relative;
-  width:100%;
-  
-  }
-  img.image2 {
-  position: absolute;
-  width:38%;
-  left: 800px;
-  margin-top: 335px;
-  }
+    @media (min-width: 1860px) and (max-width: 1979px){
 
+      #hamnav {
+        width: 100%;
+        background: #000;
+        /* Optional */
+        position: sticky;
+        top: 0;
+      }
+      header {
+        text-align: center;
+        font-size: 35px;
+        font-family: Cambria;
+        margin-top: 1%;
+        color: rgb(105, 32, 32);
+        /* background-color: rgb(187, 184, 184); */
+      }
+      
+      /* Hide Hamburger */
+      #hamnav label, #hamburger { display: none; }
+      
+      /* Horizontal Menu Items */
+      #hamitems { display: flex; }
+      #hamitems a {
+        width: 20%; /* 100% / 5 tabs = 20% */
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+      }
+      #hamitems a:hover {
+        background: #401408;
+      }
+      .homevideo{
+        margin-left: 17%;
+        width: 69%;
+        height: 5%;
+        margin-top: 10px;
+      }
+
+      .parent{
+        margin-left: 5%;
+      }
+      img.image1 {
+      position: relative;
+      width:100%;
+      
+      }
+      img.image2 {
+      position: absolute;
+      width:40%;
+      left: 590px;
+      margin-top: 240px;
+      }
+      
   p{
     text-align: center;
     color: solid black 10px;
@@ -395,23 +396,20 @@ header {
     /* background-color: rgb(187, 184, 184); */
   }
   #soundcloud{
-    margin-left: 15%;
-    width: 90%;
+    margin-left: 8%;
+    width: 80%;
     height:50% ;
   }
   iframe{
-    height:50%;
-    width: 80%;
-    margin-left: 2px;
-
+    height:40%;
+    width: 100%;
   }
   #you-tube{
-      display: flex; 
-
+    margin-left: 25%;
+      display:inline-block; 
   }
   #shows{
-    margin-left: 17%;
-    width: 70%;
+    width: 100%;
     text-align: center;
   }
   #photos div{
@@ -425,9 +423,11 @@ header {
       border: solid red 1px;
       border-radius:5px;
   }
-  }
+    }
 
-@media (min-width: 1401px) and (max-width: 1920px){
+
+
+@media (min-width: 1401px) and (max-width: 1859px){
   #hamnav {
     width: 100%;
     background: #000;
