@@ -30,7 +30,7 @@ header {
 #hamitems a:hover {
   background: #401408;
 }
-@media (min-width: 2560px) and (max-width: 4000px){
+@media (min-width: 3000px) and (max-width: 4000px){
   #hamnav {
     width: 100%;
     background: #000;
@@ -80,7 +80,7 @@ header {
   position: absolute;
   width:40%;
   left: 1200px;
-  margin-top: 460px;
+  margin-top: 480px;
   }
 
   p{
@@ -127,7 +127,205 @@ header {
       border: solid red 1px;
       border-radius:5px;
   }
-  }
+  }@media (min-width: 2560px) and (max-width: 2999px){
+    #hamnav {
+      width: 100%;
+      background: #000;
+      /* Optional */
+      position: sticky;
+      top: 0;
+    }
+    header {
+      text-align: center;
+      font-size: 35px;
+      font-family: Cambria;
+      margin-top: 1%;
+      color: rgb(105, 32, 32);
+      /* background-color: rgb(187, 184, 184); */
+    }
+    
+    /* Hide Hamburger */
+    #hamnav label, #hamburger { display: none; }
+    
+    /* Horizontal Menu Items */
+    #hamitems { display: flex; }
+    #hamitems a {
+      width: 20%; /* 100% / 5 tabs = 20% */
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+    }
+    #hamitems a:hover {
+      background: #401408;
+    }
+    .homevideo{
+      margin-left: 17%;
+      width: 69%;
+      height: 10%;
+      margin-top: 10px;
+    }
+    .parent{
+      margin-left: 5%;
+    }
+    img.image1 {
+    position: relative;
+    width:100%;
+    
+    }
+    img.image2 {
+    position: absolute;
+    width:40%;
+    left: 800px;
+    margin-top: 320px;
+    }
+  
+    p{
+      text-align: center;
+      color: solid black 10px;
+      font-size: 25px;
+    }
+    header {
+      text-align: center;
+      font-size: 40px;
+      font-family: Cambria;
+      margin-top: 1%;
+      color: rgb(105, 32, 32);
+      /* background-color: rgb(187, 184, 184); */
+    }
+    #soundcloud{
+      margin-left: 15%;
+      width: 90%;
+      height:50% ;
+    }
+    iframe{
+      height:50%;
+      width: 80%;
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    #you-tube{
+        display: flex; 
+  
+    }
+    #shows{
+      margin-left: 17%;
+      width: 70%;
+      text-align: center;
+    }
+    #photos div{
+      display: flex;
+      flex-direction: row;
+    }
+    
+      .pics{
+        width: 800px;
+        margin-left: 1%;
+        border: solid red 1px;
+        border-radius:5px;
+    }
+    }
+  
+  
+  @media (min-width: 1921px) and (max-width: 2559px){
+    #hamnav {
+      width: 100%;
+      background: #000;
+      /* Optional */
+      position: sticky;
+      top: 0;
+    }
+    header {
+      text-align: center;
+      font-size: 35px;
+      font-family: Cambria;
+      margin-top: 1%;
+      color: rgb(105, 32, 32);
+      /* background-color: rgb(187, 184, 184); */
+    }
+    
+    /* Hide Hamburger */
+    #hamnav label, #hamburger { display: none; }
+    
+    /* Horizontal Menu Items */
+    #hamitems { display: flex; }
+    #hamitems a {
+      width: 20%; /* 100% / 5 tabs = 20% */
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+    }
+    #hamitems a:hover {
+      background: #401408;
+    }
+    .homevideo{
+      margin-left: 17%;
+      width: 69%;
+      height: 5%;
+      margin-top: 10px;
+    }
+    .parent{
+      margin-left: 5%;
+    }
+    img.image1 {
+    position: relative;
+    width:100%;
+    
+    }
+    img.image2 {
+    position: absolute;
+    width:38%;
+    left: 800px;
+    margin-top: 335px;
+    }
+  
+    p{
+      text-align: center;
+      color: solid black 10px;
+      font-size: 25px;
+    }
+    header {
+      text-align: center;
+      font-size: 40px;
+      font-family: Cambria;
+      margin-top: 1%;
+      color: rgb(105, 32, 32);
+      /* background-color: rgb(187, 184, 184); */
+    }
+    #soundcloud{
+      margin-left: 15%;
+      width: 90%;
+      height:50% ;
+    }
+    iframe{
+      height:50%;
+      width: 80%;
+      margin-left: 2px;
+  
+    }
+    #you-tube{
+        display: flex; 
+  
+    }
+    #shows{
+      margin-left: 17%;
+      width: 70%;
+      text-align: center;
+    }
+    #photos div{
+      display: flex;
+      flex-direction: row;
+    }
+    
+      .pics{
+        width: 300px;
+        margin-left: 5%;
+        border: solid red 1px;
+        border-radius:5px;
+    }
+    }
+  
 
 
 @media (min-width: 1921px) and (max-width: 2559px){
