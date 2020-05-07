@@ -176,7 +176,7 @@ header {
     img.image2 {
     position: absolute;
     width:40%;
-    left: 950px;
+    left: 880px;
     margin-top: 332px;
     }
   
@@ -573,8 +573,8 @@ header {
   img.image2 {
   position: absolute;
   width:40%;
-  left: 390px;
-  margin-top: 152px;
+  left: 402px;
+  margin-top: 153px;
   }
 
   p{
@@ -632,7 +632,7 @@ header {
   }
   header {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-family: Cambria;
     margin-top: 1%;
     color: rgb(105, 32, 32);
@@ -658,10 +658,11 @@ header {
     margin-left: 17%;
     width: 68%;
     height: 5%;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   .parent{
     margin-left: 5%;
+    margin-top: 80px;
   }
   img.image1 {
   position: relative;
@@ -671,8 +672,8 @@ header {
   img.image2 {
   position: absolute;
   width:40%;
-  left: 320px;
-  margin-top: 130px;
+  left: 327px;
+  margin-top: 125px;
   }
   p{
     text-align: center;
@@ -753,10 +754,11 @@ header {
   margin-left: 18%;
   width: 68%;
   height: 5%;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .parent{
   margin-left: 5%;
+  margin-top: 80px;
 }
 img.image1 {
 position: relative;
@@ -766,8 +768,8 @@ width:100%;
 img.image2 {
 position: absolute;
 width:40%;
-left: 240px;
-margin-top: 100px;
+left: 245px;
+margin-top: 93px;
 }
 p{
   text-align: center;
@@ -812,10 +814,10 @@ iframe{
 
 }
 
-
-
 @media (min-width: 0px) and (max-width: 767px){
-
+body{
+  background-color: whitesmoke;
+}
   #hamnav label{ 
     
     display: inline-block; 
@@ -862,17 +864,18 @@ p{
     
     .parent{
       margin-left: 5%;
+      margin-top: 25px;
     }
    img.image1 {
     position: relative;
     width:100%;
-
-  }
+ }
+  
   img.image2 {
     position: absolute;
-    width:38%;
+    width:41%;
     left: 115px;
-    margin-top: 50px;
+    margin-top: 45px;
   }
   #you-tube{
     margin-left: 10%;
