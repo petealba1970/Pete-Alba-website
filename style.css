@@ -815,9 +815,6 @@ iframe{
 }
 
 @media (min-width: 0px) and (max-width: 767px){
-body{
-  background-color: whitesmoke;
-}
   #hamnav label{ 
     
     display: inline-block; 
