@@ -325,7 +325,9 @@ header {
         border-radius:5px;
     }
     }
-
+     @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    /* CSS */
+    }
 
     @media (min-width: 1860px) and (max-width: 1979px){
 
